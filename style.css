@@ -1,0 +1,215 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.conatiner {
+  max-width: 1600px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ul-class {
+  display: flex;
+  margin-left: 119px;
+}
+
+.li-class {
+  margin-right: 20px;
+}
+
+.header-wraper {
+  display: flex;
+  align-items: center;
+}
+
+.li-class a {
+  color: black;
+}
+
+.logo {
+  margin-left: 140px;
+}
+
+.section1-wraper {
+  display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 72px;
+}
+
+.product-name {
+  font-size: 48px;
+}
+
+.price {
+  font-size: 58px;
+  margin-top: 48px;
+  margin-bottom: 57px;
+}
+
+.add-button {
+  max-width: 270px;
+  width: 100%;
+  height: 70px;
+  background-color: #ff7a00;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 67px;
+  font-size: 17px;
+}
+
+.product-info {
+  margin-left: 115px;
+  margin-top: 20px;
+}
+
+.product-info h3 {
+  margin-bottom: 19px;
+  font-weight: bold;
+}
+
+.product-info p {
+  line-height: 30px;
+  font-weight: lighter;
+}
+
+.in-image {
+  max-width: 390px;
+  width: 100%;
+  height: 410px;
+  border: 1px #a5a5a5 solid;
+  border-radius: 5px;
+}
+
+.chair-img {
+  max-width: 656px;
+  width: 100%;
+}
+.chair-img img {
+  width: 100%;
+}
+.products-wraper h4 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 23px;
+}
+
+.color {
+  font-size: 16px;
+  font-weight: lighter;
+  margin-top: 10px;
+}
+
+.order {
+  font-size: 14px;
+  color: #ff7a00;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.section2 h1 {
+  font-size: 60px;
+  margin-bottom: 54px;
+}
+
+.section2 {
+  margin-top: 150px;
+  margin-left: 40px;
+
+  margin-right: 40px;
+}
+
+.products-wraper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-wraper {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 167px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-navigation {
+  margin-top: 15px;
+}
+
+.li-class-footer {
+  margin-top: 10px;
+}
+
+.li-class-footer a {
+  font-size: 16px;
+  color: #7b7b7b;
+}
+
+.footer-wraper h3 {
+  font-size: 24px;
+}
+
+.footer-wraper {
+  margin-bottom: 100px;
+}
+
+.payment-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 13px;
+}
+
+.burger {
+  font-size: 30px;
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .section1-wraper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-info {
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .products-wraper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-wraper {
+    flex-direction: column;
+  }
+  .company {
+    margin-bottom: 50px;
+  }
+
+  .Service {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .navigation {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  .header-wraper {
+    justify-content: space-between;
+  }
+  .logo {
+    margin-left: 10px;
+  }
+}
